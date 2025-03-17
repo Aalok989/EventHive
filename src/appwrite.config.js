@@ -5,8 +5,7 @@ const client = new Client();
 try {
     client
         .setEndpoint(process.env.REACT_APP_API_ENDPOINT)
-        .setProject(process.env.REACT_APP_PROJECT_ID)
-        .setSelfSigned(false); // Ensure SSL/TLS certificates are properly handled
+        .setProject(process.env.REACT_APP_PROJECT_ID);
     
     console.log('Appwrite client configured with:', {
         endpoint: process.env.REACT_APP_API_ENDPOINT,
