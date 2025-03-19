@@ -45,7 +45,7 @@ function PhoneLogic() {
   const inputs = [
     {
       label: "Phone Number",
-      placeholder: "1234567890",
+      placeholder: "+1234567890",
       value: phone,
       cb: setPhone,
       type: "number",
